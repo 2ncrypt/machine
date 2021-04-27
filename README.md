@@ -39,7 +39,51 @@ Logistic Regression :
 
 최대한 많은 코드들을 처리해보고, 자신만의 경험과 노하우를 쌓아야함.
 
+===============================1일차===============================
 
+## Estimator : 
+
+- 학습 : fit()
+- 예측 : predict()
+
+**분류 구현 클래스(Classifier)**
+
+- DecisonTreeClassifier
+- RandomforestClassifier
+- GradientBoostingClassifer
+- GauussainNB
+- SVC
+
+**회귀 구현 클래스(Regressor)**
+
+- Ridge : 1차원식에서 값이 큰걸 날림
+- Lasso : 1차원식에서 값이 작은 걸 날림
+- RandomForestRegressor : 
+- GradientBoostingRegressor : 
+
+
+
+### 사이킷런의 주요 모듈
+
+![image-20210427100552577](/Users/hyunsul/Library/Application Support/typora-user-images/image-20210427100552577.png)
+
+![image-20210427100609145](/Users/hyunsul/Library/Application Support/typora-user-images/image-20210427100609145.png)
+
+각각의 분류와 대충 어떠한 일을 하는 모듈인지 인지해야함
+
+### Data set의 key와 의미
+
+- Data : 피쳐의 데이터셋
+- Target : 분류시 레이블값, 숫가 결과값(예, 0,1)
+- Target_names : 개별 레이블의 이름
+- feature_names : 피쳐의 이름
+- DESCR은 데이터 세트의 대한 설명과 피처의 설명
+
+### 학습 데이터 세트 : 머신러닝 알고리즘의 학슴을 위해 사용, 데이터의 속성들과 결정값을 모두 가지고 있으며 학슴 데이터를 기반으로 머신러닝 알고리즘이 데이터 속성과 결정값의 패턴을 인지 및 학습
+
+### 테스트 데이터 세트 : 테스트 데이터 세트에서 학습된 머신러닝 알고리즘을 테스트, 속성 데이터만 머신러닝 알고리즘에 제공하며, 알고맂ㅁ은 제공된 데이터를 기반으로 결정값 예층
+
+**학습 데이터 세트 와 테스트 데이터 세트는 별도의 데이터 세트로 제공되어야함
 
 
 
